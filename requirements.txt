@@ -6,3 +6,6 @@ numpy
 plotly
 scikit-learn
 streamlit_option_menu
+home
+dataProcessing
+aboutUs
