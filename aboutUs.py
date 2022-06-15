@@ -23,4 +23,4 @@ def aboutUs():
     with col3:
         image = Image.open('images/michelle.png')
         st.image(image, use_column_width=True)
-        st.markdown("<h5 style='text-align: center; color: white;'>Misell Christian Bell</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center; color: white;'>Michelle Christian Bell</h5>", unsafe_allow_html=True)
