@@ -5,4 +5,3 @@ matplotlib
 numpy
 plotly
 scikit-learn
-mpl_toolkits
