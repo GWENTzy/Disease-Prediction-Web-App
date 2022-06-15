@@ -24,7 +24,7 @@ def dataProcessing():
     st.markdown('<br />', unsafe_allow_html=True)
 
     df = pd.read_csv('data/dataset.csv')
-    df2 = pd.read_csv('data/symptom-severity.csv')
+    df2 = pd.read_csv('data/Symptom-severity.csv')
     df3 = pd.read_csv('data/symptom_precaution.csv')
     df4 = pd.read_csv('data/symptom_Description.csv')
 
