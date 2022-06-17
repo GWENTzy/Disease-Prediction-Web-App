@@ -27,16 +27,16 @@ def home():
     total = 0
 
     st.write('Select independent variables')
-    symptom_1 = st.checkbox('Symptom_1')
+    symptom_1 = st.checkbox('Symptom_1', value=True)
     if symptom_1:
         total += 1
-    symptom_2 = st.checkbox('Symptom_2')
+    symptom_2 = st.checkbox('Symptom_2', value=True)
     if symptom_2:
         total += 1
     symptom_3 = st.checkbox('Symptom_3')
     if symptom_3:
         total += 1
-    symptom_4 = st.checkbox('Symptom_4')
+    symptom_4 = st.checkbox('Symptom_4', value=True)
     if symptom_4:
         total += 1
     symptom_5 = st.checkbox('Symptom_5')
