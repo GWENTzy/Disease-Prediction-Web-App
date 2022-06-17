@@ -88,7 +88,7 @@ def home():
         X_train, X_test, y_train, y_test = split_data(final_df, total, test_s, random_s)
 
     symptoms = df2['Symptom'].tolist()
-    symptom_temp = st.multiselect('Choose your symptoms (Max. 6)', symptoms)
+    symptom_temp = st.multiselect(f'Choose your symptoms (Max. {total})', symptoms)
 
     if st.button('Submit'):
         if len(symptom_temp) != 0:
