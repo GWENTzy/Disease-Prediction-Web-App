@@ -1,5 +1,5 @@
 # Disease-Prediction-Web-App
-Disease Prediction with Machine Learning Method based on Web Application (lecture project)
+Disease Prediction with Machine Learning Method based on Web Application
 
 Licensed
 Licenced under MIT
